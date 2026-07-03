@@ -176,6 +176,8 @@ ORDER BY total_nilai DESC;
 - Mobile Banking
 - Internet Banking
 - Teller
+- EDC/Mesin Kasir
+- Call Center/IVR
 
 ```sql
 SELECT 
@@ -237,11 +239,6 @@ ORDER BY volume_transaksi DESC;
 
 ## 06.a. FAILED Transaction Repetition
 
-### Indikasi
-- Account Takeover
-- Credential Stuffing
-- Brute Force Attempt
-
 Threshold:
 - Gagal transaksi lebih dari 5 kali
 
@@ -267,8 +264,6 @@ ORDER BY jumlah_gagal DESC;
 
 - Frekuensi transaksi tidak wajar
 - Nilai transaksi sangat besar dalam satu hari
-- Potensi pencucian uang (money laundering)
-- Bot activity atau automated transactions
 
 Threshold:
 
